@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Past Shadows — Media &amp; Video Downloads</title>
+<meta name="description" content="Download Past Shadows narrated video stories (H.H. Holmes' Murder Castle, Dyatlov Pass), posters, and media assets for social posting." />
+<style>
+  :root {
+    --bg: #0b0d12;
+    --panel: #151923;
+    --panel2: #1b2130;
+    --border: #2a3142;
+    --text: #e8e6df;
+    --muted: #9aa3b5;
+    --accent: #c8a24a;
+    --accent2: #b5544c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(1200px 600px at 50% -100px, #1a1424 0%, var(--bg) 55%);
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    min-height: 100vh;
+    padding: 48px 20px 80px;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 40px; }
+  .logo {
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+    border-radius: 999px;
+    margin-bottom: 20px;
+  }
+  h1 { font-size: 34px; font-weight: 600; margin-bottom: 10px; }
+  h1 em { font-style: italic; color: var(--accent); }
+  header p { color: var(--muted); font-size: 16px; }
+  .card {
+    background: linear-gradient(180deg, var(--panel) 0%, var(--panel2) 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 28px;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+  }
+  .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card .body { padding: 24px 26px; display: flex; flex-direction: column; gap: 10px; }
+  .card h2 { font-size: 22px; }
+  .card .tag {
+    display: inline-block; align-self: flex-start;
+    font-size: 12px; letter-spacing: 1px; text-transform: uppercase;
+    color: #0b0d12; background: var(--accent);
+    padding: 3px 10px; border-radius: 999px; font-weight: 700;
+  }
+  .card p { color: var(--muted); font-size: 15px; line-height: 1.55; }
+  .card .meta { font-size: 13px; color: var(--muted); letter-spacing: 0.5px; }
+  .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 6px; }
+  .btn {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: transform 0.1s ease, box-shadow 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,0,0,.35); }
+  .btn.dl { background: var(--accent); color: #0b0d12; }
+  .btn.play { background: transparent; color: var(--text); border-color: var(--border); }
+  .btn.ghost { background: transparent; color: var(--muted); border-color: var(--border); font-weight: 500; }
+  .posters { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
+  .poster {
+    width: 170px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 0.1s ease;
+  }
+  .poster:hover { transform: translateY(-2px); }
+  .poster img { width: 100%; border-radius: 8px; display: block; margin-bottom: 8px; }
+  .poster span { font-size: 13px; color: var(--muted); }
+  footer { text-align: center; margin-top: 40px; color: var(--muted); font-size: 14px; }
+  footer a { color: var(--accent); }
+  @media (max-width: 700px) {
+    .card { grid-template-columns: 1fr; }
+    .card img { height: 260px; }
+    h1 { font-size: 27px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">Past Shadows</div>
+    <h1>Media &amp; <em>Video Downloads</em></h1>
+    <p>Narrated video stories, posters, and captions for social posting.</p>
+  </header>
+
+  <div class="card">
+    <img src="/videos/holmes-poster.jpg" alt="H.H. Holmes Murder Castle poster" />
+    <div class="body">
+      <span class="tag">True Crime · Chicago 1893</span>
+      <h2>H.H. Holmes' Murder Castle</h2>
+      <p>The most dangerous hotel in American history — built for the 1893 World's Fair, now a post office. Holmes confessed to 27 murders; historians say the real number may be far higher.</p>
+      <div class="meta">1080×1920 · ~35 sec · narrated · watermarked · 6.0 MB MP4</div>
+      <div class="buttons">
+        <a class="btn dl" href="/videos/hh-holmes-murder-castle-1893.mp4" download>⬇ Download MP4</a>
+        <a class="btn play" href="/videos/hh-holmes-murder-castle-1893.mp4" target="_blank">▶ Preview</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/videos/dyatlov-poster.jpg" alt="Dyatlov Pass incident poster" />
+    <div class="body">
+      <span class="tag">Unsolved Mystery · Russia 1959</span>
+      <h2>The Dyatlov Pass Incident</h2>
+      <p>Nine experienced hikers dead in the Ural mountains, tent cut open from inside, bodies found with bizarre injuries — the official verdict: "a compelling unknown force." Still unsolved.</p>
+      <div class="meta">1080×1920 · ~35 sec · narrated · watermarked · 3.5 MB MP4</div>
+      <div class="buttons">
+        <a class="btn dl" href="/videos/dyatlov-pass-incident-1959.mp4" download>⬇ Download MP4</a>
+        <a class="btn play" href="/videos/dyatlov-pass-incident-1959.mp4" target="_blank">▶ Preview</a>
+      </div>
+    </div>
+  </div>
+
+  <h2 style="text-align:center; font-size:20px; margin: 36px 0 6px;">Posters</h2>
+  <div class="posters">
+    <a class="poster" href="/videos/holmes-poster.jpg" download>
+      <img src="/videos/holmes-poster.jpg" alt="Holmes poster" />
+      <span>holmes-poster.jpg</span>
+    </a>
+    <a class="poster" href="/videos/dyatlov-poster.jpg" download>
+      <img src="/videos/dyatlov-poster.jpg" alt="Dyatlov poster" />
+      <span>dyatlov-poster.jpg</span>
+    </a>
+  </div>
+
+  <footer>
+    <p>Need captions + posting schedule? See the <a href="https://pastshadows.ctonew.app/blog" target="_blank">blog</a> and the Week-1 action plan in your Files → <code>social_posts/14_WEEK1_ACTION_PLAN_DAYS1-5.md</code>.</p>
+    <p style="margin-top:10px;"><a href="/">← Back to Past Shadows</a></p>
+  </footer>
+</div>
+</body>
+</html>

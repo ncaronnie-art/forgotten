@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)" rx="64"/>
+  <!-- Candle body -->
+  <rect x="216" y="180" width="80" height="180" rx="8" fill="#c9a96e" opacity="0.9"/>
+  <!-- Flame -->
+  <ellipse cx="256" cy="160" rx="24" ry="40" fill="#ff8c00" opacity="0.9"/>
+  <ellipse cx="256" cy="150" rx="14" ry="28" fill="#ffd700" opacity="0.8"/>
+  <ellipse cx="256" cy="145" rx="6" ry="16" fill="#fff8dc" opacity="0.9"/>
+  <!-- Candle glow -->
+  <ellipse cx="256" cy="160" rx="60" ry="80" fill="#ff8c00" opacity="0.08"/>
+  <!-- Candle base -->
+  <rect x="196" y="350" width="120" height="16" rx="4" fill="#b8962e"/>
+  <!-- Drip -->
+  <path d="M230 360 Q230 370 235 370 Q240 370 240 360" fill="#c9a96e"/>
+  <path d="M270 360 Q270 372 276 372 Q282 372 282 360" fill="#c9a96e"/>
+  <!-- Ground shadow -->
+  <ellipse cx="256" cy="380" rx="80" ry="10" fill="#000" opacity="0.3"/>
+</svg>

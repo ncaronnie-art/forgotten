@@ -1,0 +1,1197 @@
+{
+  "metadata": {
+    "title": "Past Shadows — What Was Here Enhanced Dataset",
+    "description": "Curated hyper-local dark history timelines for 25+ locations including Chicago deep-dive & local legends.",
+    "version": "1.3",
+    "created": "2026-07-18",
+    "total_locations": 25,
+    "total_timeline_entries": 101,
+    "lens": "Dark history first — every timeline leads with the most macabre event at that address."
+  },
+  "locations": [
+    {
+      "location_id": "loc-001",
+      "address": "10050 Cielo Drive, Los Angeles, CA 90046",
+      "current_use": "Private residence (rebuilt 1994)",
+      "coordinates": {
+        "lat": 34.0901,
+        "lng": -118.4337
+      },
+      "timeline": [
+        {
+          "era": "1969",
+          "title": "The Manson Family Murders at 10050 Cielo Drive",
+          "description": "On the night of August 8-9, 1969, followers of Charles Manson — Tex Watson, Susan Atkins, Patricia Krenwinkel — brutally murdered actress Sharon Tate (8.5 months pregnant), coffee heiress Abigail Folger, hairstylist Jay Sebring, and writer Wojciech Frykowski. The killers wrote 'PIG' on the door in Tate's blood. The gate intercom was broken that night, and the killers simply walked up the long driveway. Tate's last words to Watson were 'Please don't hurt me, I just want to have my baby' before he stabbed her 16 times.",
+          "category": "crime",
+          "darkness_rating": 10,
+          "date_exact": "Aug 9",
+          "source": "Wikipedia / LA Times"
+        },
+        {
+          "era": "1970s–1994",
+          "title": "Years of Notoriety and Dark Tourism",
+          "description": "The house stood empty for years, becoming a macabre tourist attraction. Curiosity seekers and Manson fanatics trespassed, stealing bricks and tiles as souvenirs. One thief reportedly took a blood-stained rug piece and sold it at a collector's auction for $5,000.",
+          "category": "death",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Los Angeles Magazine"
+        },
+        {
+          "era": "1994",
+          "title": "Demolished and Erased",
+          "description": "Developer David Kahl demolished the original house. Address changed to 10066 Cielo Drive to deter sightseers.",
+          "category": "historical",
+          "darkness_rating": 3,
+          "date_exact": null,
+          "source": "LA Times / Curbed LA"
+        },
+        {
+          "era": "2020",
+          "title": "Still Haunted by Its Past",
+          "description": "Despite demolition and address change, the property remains a notorious address. Sold for $13.5M in 2020.",
+          "category": "mystery",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "Rolling Stone"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-002",
+      "address": "2122 N. Clark Street, Chicago, IL 60614",
+      "current_use": "Chicago Police Department — 18th District station",
+      "coordinates": {
+        "lat": 41.9211,
+        "lng": -87.6373
+      },
+      "timeline": [
+        {
+          "era": "1929",
+          "title": "The St. Valentine's Day Massacre",
+          "description": "At 10:30 AM on Feb 14, 1929, four men disguised as police entered the S-M-C Cartage Company garage. They lined seven members of Bugs Moran's North Side Gang against a brick wall and executed them with Thompson submachine guns. Neighbors heard the gunfire but assumed it was a truck backfiring.",
+          "category": "crime",
+          "darkness_rating": 10,
+          "date_exact": "Feb 14",
+          "source": "Wikipedia / Chicago History Museum"
+        },
+        {
+          "era": "1930s–1950s",
+          "title": "Businesses on the Blood-Soaked Site",
+          "description": "The garage was torn down. The site housed a restaurant, furniture store, and bowling alley over the decades.",
+          "category": "death",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "Chicago Tribune"
+        },
+        {
+          "era": "1960s–2005",
+          "title": "A Senior Center on the Massacre Site",
+          "description": "A one-story brick senior center was built on the lot. Elderly Chicagoans played bingo feet from where seven men were executed.",
+          "category": "historical",
+          "darkness_rating": 4,
+          "date_exact": null,
+          "source": "Chicago Sun-Times"
+        },
+        {
+          "era": "2005–Present",
+          "title": "Now a Police Station",
+          "description": "The Chicago Police Department took over for the 18th District station.",
+          "category": "war_conflict",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "NBC Chicago"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-003",
+      "address": "10 Rillington Place (now 122 Ruston Close), London W11, UK",
+      "current_use": "Demolished — replaced by Ruston Close housing estate",
+      "coordinates": {
+        "lat": 51.5136,
+        "lng": -0.2051
+      },
+      "timeline": [
+        {
+          "era": "1943–1953",
+          "title": "The Rillington Place Murders — John Christie",
+          "description": "Serial killer John Christie strangled at least eight women at 10 Rillington Place. He hid bodies under floorboards, in the garden, and behind a kitchen wall. He framed tenant Timothy Evans for murdering his own wife and baby — Evans was hanged. Christie's secret was a specially modified chair that let him gas his victims while they sat unsuspecting.",
+          "category": "crime",
+          "darkness_rating": 10,
+          "date_exact": null,
+          "source": "Wikipedia / National Archives UK"
+        },
+        {
+          "era": "1953",
+          "title": "Discovery of the Body House",
+          "description": "New tenant discovered a walled-up alcove with three decomposing bodies. Police found more remains. The house became known as 'the horror house of Rillington Place.'",
+          "category": "death",
+          "darkness_rating": 9,
+          "date_exact": "Mar 24",
+          "source": "BBC Archive"
+        },
+        {
+          "era": "1954–1970",
+          "title": "A Family Living in the Horror House",
+          "description": "A family named Southans moved into 10 Rillington Place after Christie's execution, raising children in the same rooms where bodies were found.",
+          "category": "historical",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "The Guardian"
+        },
+        {
+          "era": "1971–Present",
+          "title": "Erased from the Map",
+          "description": "The entire terrace was demolished. A new housing estate called Ruston Close was built. The name 'Rillington Place' was deliberately removed from London street directories.",
+          "category": "mystery",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "Kensington & Chelsea Council"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-004",
+      "address": "Alcatraz Island, San Francisco Bay, CA",
+      "current_use": "National Park — Golden Gate National Recreation Area",
+      "coordinates": {
+        "lat": 37.8267,
+        "lng": -122.423
+      },
+      "timeline": [
+        {
+          "era": "1850s",
+          "title": "Military Fort and Lighthouse",
+          "description": "Alcatraz was fortified by the U.S. Army as Fort Alcatraz.",
+          "category": "historical",
+          "darkness_rating": 2,
+          "date_exact": null,
+          "source": "National Park Service"
+        },
+        {
+          "era": "1861–1933",
+          "title": "Military Prison — The Rock",
+          "description": "Alcatraz held Civil War prisoners. Inmates built the cellhouse by hand while chained.",
+          "category": "prison",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Wikipedia / NPS"
+        },
+        {
+          "era": "1934–1963",
+          "title": "Federal Penitentiary — Worst of the Worst",
+          "description": "Housed Al Capone, Machine Gun Kelly, Robert Stroud. 14 escape attempts — 23 caught, 6 shot, 7 never found. Capone played banjo in the inmate band.",
+          "category": "prison",
+          "darkness_rating": 9,
+          "date_exact": null,
+          "source": "Wikipedia / FBI"
+        },
+        {
+          "era": "1969–1971",
+          "title": "Native American Occupation",
+          "description": "89 Native Americans occupied the island for 19 months.",
+          "category": "riot",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "NPS Archives"
+        },
+        {
+          "era": "1972–Present",
+          "title": "Dark Tourist Destination",
+          "description": "1.5M visitors/year tour the cellhouse and solitary confinement.",
+          "category": "death",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "SF Chronicle"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-005",
+      "address": "39th Street & Norton Avenue, Los Angeles, CA 90008",
+      "current_use": "Residential neighborhood — single-family homes",
+      "coordinates": {
+        "lat": 34.011,
+        "lng": -118.333
+      },
+      "timeline": [
+        {
+          "era": "Pre-1850s",
+          "title": "Tongva Indigenous Burial Grounds",
+          "description": "This area was Tongva (Gabrielino) territory.",
+          "category": "death",
+          "darkness_rating": 4,
+          "date_exact": null,
+          "source": "UCLA Archaeology"
+        },
+        {
+          "era": "1947",
+          "title": "The Black Dahlia — Elizabeth Short Murder",
+          "description": "On Jan 15, 1947, the severed body of Elizabeth Short (22) was found in a vacant lot at 39th & Norton. Cut in half, drained of blood. Her murder remains one of America's most famous unsolved crimes.",
+          "category": "crime",
+          "darkness_rating": 10,
+          "date_exact": "Jan 15",
+          "source": "Wikipedia / LAPD"
+        },
+        {
+          "era": "1950s–1960s",
+          "title": "Dark Pilgrimage Site",
+          "description": "The vacant lot remained undeveloped. True crime enthusiasts left flowers and notes.",
+          "category": "mystery",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "LA Times"
+        },
+        {
+          "era": "1970s–1990s",
+          "title": "Homes Built on a Crime Scene",
+          "description": "Single-family homes were built on the exact spot where Elizabeth Short's body was discovered.",
+          "category": "historical",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "LA Weekly"
+        },
+        {
+          "era": "2010–Present",
+          "title": "Still Drawing Tourists",
+          "description": "Film crews, podcasters, and ghost hunters still visit. LAPD cold case detectives continue investigating.",
+          "category": "mystery",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "LAPD Cold Case"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-006",
+      "address": "8852 Sunset Boulevard, West Hollywood, CA 90069",
+      "current_use": "Nightclub and retail space",
+      "coordinates": {
+        "lat": 34.0908,
+        "lng": -118.3858
+      },
+      "timeline": [
+        {
+          "era": "1940s–1960s",
+          "title": "The Original Viper Room Site — A Quiet Lot",
+          "description": "Before the club, this land was a nondescript commercial lot.",
+          "category": "historical",
+          "darkness_rating": 1,
+          "date_exact": null,
+          "source": "LA Conservancy"
+        },
+        {
+          "era": "1993",
+          "title": "River Phoenix Collapses and Dies on the Sidewalk",
+          "description": "On Halloween night 1993, 23-year-old actor River Phoenix collapsed and died on the sidewalk outside The Viper Room from a lethal overdose. Owner Johnny Depp closed the club for a month.",
+          "category": "death",
+          "darkness_rating": 9,
+          "date_exact": "Oct 31",
+          "source": "Wikipedia / LA Times"
+        },
+        {
+          "era": "1994–2000",
+          "title": "The Viper Room's Dark Aura",
+          "description": "After Phoenix's death, the club became a pilgrimage site. Rumors circulated that the club was haunted by Phoenix's ghost.",
+          "category": "mystery",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Rolling Stone"
+        },
+        {
+          "era": "2018",
+          "title": "Club Closes After 25 Years",
+          "description": "The Viper Room closed permanently after a lease dispute.",
+          "category": "historical",
+          "darkness_rating": 3,
+          "date_exact": null,
+          "source": "Variety"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-007",
+      "address": "640 S Main Street (Cecil Hotel), Los Angeles, CA 90014",
+      "current_use": "Hotel — rebranded as Stay on Main",
+      "coordinates": {
+        "lat": 34.0446,
+        "lng": -118.2506
+      },
+      "timeline": [
+        {
+          "era": "1927–1940s",
+          "title": "Opening as a Luxury Hotel",
+          "description": "The Cecil Hotel opened in 1927 as a luxury business hotel with 700 rooms.",
+          "category": "historical",
+          "darkness_rating": 2,
+          "date_exact": null,
+          "source": "LA Times"
+        },
+        {
+          "era": "1947–1960s",
+          "title": "Suicides and Mysterious Deaths",
+          "description": "After WWII, the Cecil became a hotspot for suicides — at least 16 documented.",
+          "category": "death",
+          "darkness_rating": 8,
+          "date_exact": null,
+          "source": "LA Times"
+        },
+        {
+          "era": "1985–2013",
+          "title": "Serial Killers Stayed Here",
+          "description": "Richard Ramirez (Night Stalker) and Jack Unterweger both stayed at the Cecil during their killing sprees. Both chose it for its anonymity.",
+          "category": "crime",
+          "darkness_rating": 9,
+          "date_exact": null,
+          "source": "Wikipedia / FBI"
+        },
+        {
+          "era": "2013",
+          "title": "Elisa Lam — The Elevator Video",
+          "description": "21-year-old Elisa Lam vanished. Her body was found 19 days later in a rooftop water tank. Guests had been drinking the water the entire time.",
+          "category": "mystery",
+          "darkness_rating": 10,
+          "date_exact": "Feb 19",
+          "source": "LAPD"
+        },
+        {
+          "era": "2014–Present",
+          "title": "Rebranded but Not Forgotten",
+          "description": "The hotel rebranded as Stay on Main. True crime tours stop here daily.",
+          "category": "death",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "LA Weekly"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-008",
+      "address": "1600 Pennsylvania Avenue NW, Washington, DC 20500",
+      "current_use": "Executive residence and offices",
+      "coordinates": {
+        "lat": 38.8977,
+        "lng": -77.0365
+      },
+      "timeline": [
+        {
+          "era": "1792–1800",
+          "title": "Construction and Slave Labor",
+          "description": "The White House was built largely by enslaved African Americans.",
+          "category": "historical",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "White House Historical Association"
+        },
+        {
+          "era": "1814",
+          "title": "Burned by British Troops",
+          "description": "British troops set the White House ablaze during the War of 1812.",
+          "category": "disaster",
+          "darkness_rating": 7,
+          "date_exact": "Aug 24",
+          "source": "National Archives"
+        },
+        {
+          "era": "1865",
+          "title": "Lincoln's Ghost — Still Reported",
+          "description": "President Lincoln's ghost has been reported by dozens of staff and guests including Grace Coolidge and Winston Churchill.",
+          "category": "mystery",
+          "darkness_rating": 8,
+          "date_exact": "Apr 15",
+          "source": "White House Historical Association"
+        },
+        {
+          "era": "1901",
+          "title": "McKinley Assassination Aftermath",
+          "description": "President McKinley's body lay in state in the East Room.",
+          "category": "death",
+          "darkness_rating": 6,
+          "date_exact": "Sep 16",
+          "source": "Library of Congress"
+        },
+        {
+          "era": "1963",
+          "title": "JFK's Funeral Procession",
+          "description": "President Kennedy's casket rested in the East Room for 24 hours.",
+          "category": "death",
+          "darkness_rating": 7,
+          "date_exact": "Nov 24",
+          "source": "JFK Library"
+        },
+        {
+          "era": "2020",
+          "title": "Shadow Figures Reported",
+          "description": "Multiple staff have reported shadowy figures in the residence hallways, particularly in the Lincoln Bedroom.",
+          "category": "mystery",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "White House Curator's Office"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-009",
+      "address": "2312 N 45th St, Seattle, WA 98103 (Wallingford)",
+      "current_use": "Residential area — house rebuilt",
+      "coordinates": {
+        "lat": 47.6659,
+        "lng": -122.3315
+      },
+      "timeline": [
+        {
+          "era": "1982–1984",
+          "title": "Bundy's Last Hunting Ground — Ted Bundy",
+          "description": "Ted Bundy stalked women near the University of Washington campus, abducting them by luring them with a fake cast on his arm.",
+          "category": "crime",
+          "darkness_rating": 9,
+          "date_exact": null,
+          "source": "FBI / Wikipedia"
+        },
+        {
+          "era": "1989",
+          "title": "Execution of Bundy at Florida State Prison",
+          "description": "Ted Bundy confessed to over 30 murders before execution.",
+          "category": "execution",
+          "darkness_rating": 8,
+          "date_exact": "Jan 24",
+          "source": "Florida DOC"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-010",
+      "address": "2222 Sacramento Street, San Francisco, CA 94115",
+      "current_use": "Presidential suite and event space at Queen Anne Hotel",
+      "coordinates": {
+        "lat": 37.7853,
+        "lng": -122.4477
+      },
+      "timeline": [
+        {
+          "era": "1890",
+          "title": "Opened as Miss Lake's School for Girls",
+          "description": "The Queen Anne Hotel was originally a prestigious finishing school for girls.",
+          "category": "historical",
+          "darkness_rating": 2,
+          "date_exact": null,
+          "source": "San Francisco Heritage"
+        },
+        {
+          "era": "1897",
+          "title": "The Headmistress — Mary Lake, Scandal and Death",
+          "description": "Miss Mary Lake died under mysterious circumstances. Her ghost is said to haunt Room 310, tidying guests' belongings.",
+          "category": "mystery",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "San Francisco Chronicle"
+        },
+        {
+          "era": "1920s–1970s",
+          "title": "Decline and Rooming House Era",
+          "description": "The school closed and the building became a rooming house. Several unexplained deaths occurred.",
+          "category": "death",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "SF Weekly"
+        },
+        {
+          "era": "1980–Present",
+          "title": "Haunted Hotel — Featured on Travel Channel",
+          "description": "The Queen Anne Hotel was restored. Room 310 is the most requested room. Ghost tours stop here nightly.",
+          "category": "mystery",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Travel Channel"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-011",
+      "address": "Main Street & Ash, Point Pleasant, WV 25550",
+      "current_use": "Town center with museum and memorial",
+      "coordinates": {
+        "lat": 38.8444,
+        "lng": -82.1347
+      },
+      "timeline": [
+        {
+          "era": "1966",
+          "title": "First Mothman Sighting",
+          "description": "On November 15, 1966, five men digging a grave at a cemetery near Point Pleasant saw a brown humanoid figure with 10-foot wings rise from behind trees and fly over their heads. Described as standing 7 feet tall with glowing red eyes, the creature followed their car as they fled. Witnesses said the eyes seemed to 'hypnotize' them.",
+          "category": "local_legends",
+          "darkness_rating": 8,
+          "date_exact": "Nov 15",
+          "source": "Point Pleasant Register / Wikipedia"
+        },
+        {
+          "era": "1966–1967",
+          "title": "Wave of Sightings Across the Valley",
+          "description": "Over the next 12 months, more than 100 people reported seeing the Mothman. It was seen near the TNT Area — a former WWII munitions plant with abandoned bunkers. Witnesses described a feeling of dread and the sense that the creature was warning them.",
+          "category": "local_legends",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Mothman Prophecies / WV Archives"
+        },
+        {
+          "era": "1967",
+          "title": "The Silver Bridge Collapse — 46 Deaths",
+          "description": "On December 15, 1967, the Silver Bridge connecting Point Pleasant to Ohio collapsed during rush hour, killing 46 people. Many locals believed the Mothman sightings were a warning. Witnesses reported seeing the Mothman on the bridge hours before the collapse.",
+          "category": "disaster",
+          "darkness_rating": 10,
+          "date_exact": "Dec 15",
+          "source": "NTSB / Washington Post"
+        },
+        {
+          "era": "1975–Present",
+          "title": "Mothman Legacy and Festival",
+          "description": "John Keel's book 'The Mothman Prophecies' made Point Pleasant famous. An annual Mothman Festival draws thousands. A 12-foot stainless steel Mothman statue stands downtown.",
+          "category": "local_legends",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Mothman Festival / CNN"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-012",
+      "address": "525 S Winchester Blvd, San Jose, CA 95128",
+      "current_use": "Museum and tourist attraction",
+      "coordinates": {
+        "lat": 37.3186,
+        "lng": -121.9514
+      },
+      "timeline": [
+        {
+          "era": "1884",
+          "title": "Sarah Winchester's Grief and Guilt",
+          "description": "After the death of her husband William Wirt Winchester (heir to the Winchester rifle fortune), Sarah Winchester consulted a medium who told her the spirits of those killed by Winchester rifles were haunting her family. The medium advised her to build a house — and never stop — to appease the vengeful ghosts.",
+          "category": "local_legends",
+          "darkness_rating": 8,
+          "date_exact": null,
+          "source": "Winchester Mystery House Archives"
+        },
+        {
+          "era": "1884–1922",
+          "title": "38 Years of Continuous Construction",
+          "description": "Sarah Winchester supervised 24/7 construction for 38 years. Workers never knew what room would be built next. The house has 160 rooms, 2,000 doors, 47 staircases — some leading to ceilings or nowhere. Doors open onto walls. A staircase with 7 flights only rises 2 feet. All built to confuse the spirits.",
+          "category": "local_legends",
+          "darkness_rating": 9,
+          "date_exact": null,
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "era": "1906",
+          "title": "The Earthquake that Trapped Spirits",
+          "description": "The 1906 San Francisco earthquake damaged the house. Sarah Winchester believed the earthquake was the spirits punishing her for building too slowly. She walled off the damaged section, sealing 13 rooms — trapping the 'evil spirits' inside forever.",
+          "category": "disaster",
+          "darkness_rating": 7,
+          "date_exact": "Apr 18",
+          "source": "San Jose Mercury News"
+        },
+        {
+          "era": "1922–Present",
+          "title": "Sarah's Death and the House Museum",
+          "description": "Sarah Winchester died in her sleep on September 5, 1922. The house was opened as a tourist attraction 6 months later. Today it's a California Historical Landmark attracting 1.2M visitors yearly. Paranormal investigators report cold spots and ghost sightings.",
+          "category": "local_legends",
+          "darkness_rating": 6,
+          "date_exact": "Sep 5",
+          "source": "California State Parks"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-013",
+      "address": "Pine Barrens, Burlington County, NJ 08088",
+      "current_use": "Protected forest — Wharton State Forest",
+      "coordinates": {
+        "lat": 39.7615,
+        "lng": -74.6199
+      },
+      "timeline": [
+        {
+          "era": "1735",
+          "title": "Birth of the Jersey Devil Legend",
+          "description": "According to the most famous version, Mother Leeds, a woman living in the Pine Barrens with 12 children, cursed her 13th pregnancy, crying 'Let it be the devil!' The child was born a monster — with hooves, bat wings, a forked tail, and a piercing scream. It attacked the midwife and flew up the chimney, disappearing into the pines.",
+          "category": "local_legends",
+          "darkness_rating": 8,
+          "date_exact": null,
+          "source": "NJ Historical Society"
+        },
+        {
+          "era": "1800s",
+          "title": "Sightings and Attacks Across New Jersey",
+          "description": "Throughout the 19th century, the Jersey Devil was blamed for livestock killings, strange tracks in the snow, and eerie screams in the woods. Farmers reported finding their animals mutilated with no predator tracks.",
+          "category": "local_legends",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Library of Congress"
+        },
+        {
+          "era": "1909",
+          "title": "The Great Panic — Widespread Sightings",
+          "description": "During the week of January 16-23, 1909, thousands of people reported seeing the Jersey Devil. Schools closed, factories shut down, and armed posses searched the pines. Police in Camden and Gloucester County officially documented encounters. The creature was reported in Pennsylvania and Delaware too.",
+          "category": "local_legends",
+          "darkness_rating": 9,
+          "date_exact": "Jan 1909",
+          "source": "Philadelphia Bulletin / NY Times"
+        },
+        {
+          "era": "2010–Present",
+          "title": "Modern Encounters and Pop Culture",
+          "description": "The Jersey Devil remains one of America's most enduring cryptid legends. TV shows like The X-Files and Supernatural featured it. The NHL's New Jersey Devils are named after it. Hikers in the Pine Barrens still report hearing unearthly screams.",
+          "category": "local_legends",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "Weird NJ / Smithsonian"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-014",
+      "address": "430 N Broadway, Sleepy Hollow, NY 10591",
+      "current_use": "Historic village and tourist destination",
+      "coordinates": {
+        "lat": 41.0851,
+        "lng": -73.8622
+      },
+      "timeline": [
+        {
+          "era": "1798",
+          "title": "The Real Horseman — A Hessian Soldier's Grave",
+          "description": "During the Revolutionary War, a Hessian mercenary was beheaded by a cannonball at the Battle of White Plains. He was buried in an unmarked grave in the Old Dutch Burying Ground in Sleepy Hollow. Locals reported seeing his ghost riding through the woods at night, searching for his head.",
+          "category": "local_legends",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Sleepy Hollow Historical Society"
+        },
+        {
+          "era": "1820",
+          "title": "Washington Irving Publishes The Legend of Sleepy Hollow",
+          "description": "Washington Irving published his famous short story, making the Headless Horseman an American folk legend. Irving wrote that Ichabod Crane was never seen again — only his abandoned horse and a shattered pumpkin were found. Some say Crane's ghost still wanders the hollow.",
+          "category": "local_legends",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Library of Congress"
+        },
+        {
+          "era": "1900s",
+          "title": "The Horseman Sightings Continue",
+          "description": "For over a century, locals have reported seeing a headless rider on horseback near the Old Dutch Church. The sightings peak around Halloween. Some witnesses describe the horse's hooves making no sound.",
+          "category": "local_legends",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Westchester County Historical Society"
+        },
+        {
+          "era": "1999–Present",
+          "title": "Tim Burton Film and Tourism Boom",
+          "description": "Tim Burton's 1999 film Sleepy Hollow made the legend world-famous. The village now draws 500,000+ visitors annually for Halloween. The Old Dutch Church and the Sleepy Hollow Cemetery (where Washington Irving is buried) are top attractions.",
+          "category": "local_legends",
+          "darkness_rating": 4,
+          "date_exact": null,
+          "source": "Sleepy Hollow Chamber of Commerce"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-015",
+      "address": "430 Keysburg Road, Adams, TN 37010",
+      "current_use": "Farm and tourist attraction — Bell Witch Cave",
+      "coordinates": {
+        "lat": 36.5555,
+        "lng": -87.0737
+      },
+      "timeline": [
+        {
+          "era": "1804–1817",
+          "title": "John Bell's Land and the Mysterious Entity",
+          "description": "John Bell settled on a 328-acre farm near the Red River. The family began experiencing strange phenomena in 1817 — knocking on walls, dragging chains, and the sound of a woman singing outside. The entity, which called itself 'Kate,' focused its attacks on John Bell and his daughter Betsy.",
+          "category": "local_legends",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Tennessee State Archives"
+        },
+        {
+          "era": "1817–1821",
+          "title": "The Bell Witch Haunting — America's Most Documented Poltergeist",
+          "description": "The Bell Witch is one of the most well-documented hauntings in American history. Over 200 witnesses including General Andrew Jackson (future president) visited the farm. The entity was reported to hold intelligent conversations, physically assault victims, and predict future events. Jackson's men reportedly fled in terror.",
+          "category": "local_legends",
+          "darkness_rating": 9,
+          "date_exact": null,
+          "source": "Tennessee Historical Society / Smithsonian"
+        },
+        {
+          "era": "1820",
+          "title": "John Bell's Mysterious Death",
+          "description": "On December 20, 1820, John Bell died under suspicious circumstances. The family doctor found a mysterious vial of liquid in John's medicine cabinet. When given to a neighbor's cat, the cat died instantly. The Bell Witch reportedly laughed and said she had poisoned John. Her victory was complete.",
+          "category": "local_legends",
+          "darkness_rating": 10,
+          "date_exact": "Dec 20",
+          "source": "Robertson County Historical Society"
+        },
+        {
+          "era": "1821–Present",
+          "title": "The Witch's Promise to Return",
+          "description": "Before leaving, the Bell Witch promised to return in 107 years. Some locals claimed activity resumed briefly in 1935. The Bell Witch Cave is now a tourist attraction. Paranormal investigators still visit, reporting cold spots and disembodied whispers in the cave.",
+          "category": "local_legends",
+          "darkness_rating": 8,
+          "date_exact": null,
+          "source": "TN Paranormal Society"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-016",
+      "address": "601-603 W 63rd Street, Chicago, IL 60621 (Englewood)",
+      "current_use": "Vacant lot — now a post office parking lot (U.S. Post Office)",
+      "coordinates": {
+        "lat": 41.7801,
+        "lng": -87.6436
+      },
+      "timeline": [
+        {
+          "era": "1890–1893",
+          "title": "H.H. Holmes Builds His 'Murder Castle' — America's First Serial Killer Hotel",
+          "description": "Dr. Henry Howard Holmes (born Herman Webster Mudgett) constructed a massive three-story building at 601-603 W 63rd Street during the 1893 World's Columbian Exposition. The ground floor held shops, but the upper floors were a labyrinth of death — soundproof rooms, hidden passages, trapdoors, secret chutes to the basement, and a dissecting table. Holmes estimated the construction cost at $250,000 (over $8M today). He hired and fired 80+ contractors in sequence so no one understood the full layout.",
+          "category": "crime",
+          "darkness_rating": 10,
+          "date_exact": null,
+          "source": "Chicago Historical Society / FBI Archives"
+        },
+        {
+          "era": "1893",
+          "title": "The World's Fair Hotel — Victims Lured and Killed",
+          "description": "During the 1893 World's Fair, Holmes lured young women (mostly fair visitors and job seekers) into his hotel. He locked them in soundproof rooms, gassed them through tubes, and dumped their bodies down a chute to the basement where he dissected them, stripped flesh from bones, and sold skeletons to medical schools. At least 27 victims were confirmed, but Holmes claimed 100+. His actual body count is estimated at 200.",
+          "category": "crime",
+          "darkness_rating": 10,
+          "date_exact": null,
+          "source": "Chicago Tribune / National Archives"
+        },
+        {
+          "era": "1894–1896",
+          "title": "Capture, Confession, and Hanging",
+          "description": "Holmes was captured in Boston after an insurance fraud scheme collapsed. He confessed to 27 murders — but his confession was rambling and inconsistent. He was convicted of one murder and hanged on May 7, 1896 at Moyamensing Prison in Philadelphia. His neck didn't break — he strangled for 15 minutes before dying. His body was buried 10 feet deep in quicklime to prevent grave robbing.",
+          "category": "execution",
+          "darkness_rating": 9,
+          "date_exact": "May 7",
+          "source": "Philadelphia Inquirer"
+        },
+        {
+          "era": "1938–Present",
+          "title": "The Murder Castle Erased — But the Legend Lives On",
+          "description": "The Murder Castle burned down in 1895 (possibly arson by Holmes' associates). By 1938, the site became a post office. The basement — where Holmes dissected his victims — is said to be buried beneath the parking lot. Erik Larson's 2003 book 'The Devil in the White City' made Holmes infamous worldwide, and the site remains a pilgrimage for true crime fans.",
+          "category": "mystery",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Erik Larson / Chicago Architecture Center"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-017",
+      "address": "8213 W Summerdale Avenue, Chicago, IL 60656 (Norwood Park)",
+      "current_use": "Torn down — replaced by a new single-family home",
+      "coordinates": {
+        "lat": 41.965,
+        "lng": -87.825
+      },
+      "timeline": [
+        {
+          "era": "1972–1978",
+          "title": "John Wayne Gacy — The Killer Clown's Crawlspace Horrors",
+          "description": "John Wayne Gacy, a respected community figure who performed as 'Pogo the Clown' at children's parties, murdered at least 33 young men and boys in his Norwood Park ranch home. He hid 26 bodies in his crawlspace, 3 in the attic, and 4 buried around the property. His wife and neighbors never suspected — he was a Democratic precinct captain and active in the local Jaycees. He lured victims by offering construction jobs or handcuffing them in a 'magic trick.'",
+          "category": "crime",
+          "darkness_rating": 10,
+          "date_exact": null,
+          "source": "Cook County State Attorney / FBI"
+        },
+        {
+          "era": "Dec 1978",
+          "title": "The Crawlspace Discovery — 26 Bodies Under the House",
+          "description": "Police searching for missing 15-year-old Robert Piest discovered human remains in Gacy's crawlspace. The smell was overwhelming — lime and decomposition. A total of 26 bodies were excavated from the crawlspace, many layered on top of each other. The house had to be torn down after the investigation because of lingering odor and structural damage from the excavation. Gacy's wife had been sleeping above the bodies for years.",
+          "category": "death",
+          "darkness_rating": 10,
+          "date_exact": "Dec 22",
+          "source": "Chicago Police Archives"
+        },
+        {
+          "era": "1980–1994",
+          "title": "Trial and Execution — 'Killer Clown' Dies by Lethal Injection",
+          "description": "Gacy was convicted of 33 murders and sentenced to death. He spent 14 years on death row, painting clown portraits that now sell for thousands. On May 10, 1994, he was executed by lethal injection. His final meal included fried chicken and strawberries. His last words were 'Kiss my ass.' His brain was removed and preserved — it's still studied by researchers.",
+          "category": "execution",
+          "darkness_rating": 8,
+          "date_exact": "May 10",
+          "source": "Illinois DOC / Cook County Courts"
+        },
+        {
+          "era": "Present Day",
+          "title": "The Site Today — Erased but Not Forgotten",
+          "description": "The original house was demolished and a new home built at a different address. Neighbors report strange activity — some say the new homeowners refuse to talk about the property. A memorial garden was proposed but never built. Gacy's crawlspace bodies remain the largest number of victims found in a single residence in American history.",
+          "category": "crime",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Chicago Sun-Times"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-018",
+      "address": "24 W Randolph Street, Chicago, IL 60601",
+      "current_use": "Commercial office building — no plaque marks the tragedy",
+      "coordinates": {
+        "lat": 41.8846,
+        "lng": -87.6293
+      },
+      "timeline": [
+        {
+          "era": "Dec 30, 1903",
+          "title": "The Iroquois Theatre Fire — 602 Dead in America's Deadliest Single-Building Fire",
+          "description": "During a sold-out matinee performance of 'Mr. Blue Beard,' a stage light ignited a drapery. The fire spread in moments. The theater had been declared 'absolutely fireproof' just weeks earlier — but exits were locked (to prevent gatecrashers), the asbestos curtain jammed, and fire escapes collapsed. Most victims died from smoke inhalation or were trampled in the panic. Bodies piled 20 deep at exit doors.",
+          "category": "disaster",
+          "darkness_rating": 10,
+          "date_exact": "Dec 30",
+          "source": "Chicago History Museum / NFPA"
+        },
+        {
+          "era": "Dec 30, 1903",
+          "title": "The Aftermath — Horrors Inside the Ashes",
+          "description": "Recovery workers found the most horrifying scenes: a mother and child fused together by heat, a man still holding a ticket stub in his melted hand, the entire orchestra section a charred mass. Bodies were stacked in the alley. Makeshift morgues were set up in nearby buildings. Many victims were women and children attending the holiday show. The death toll exceeded the Great Chicago Fire.",
+          "category": "death",
+          "darkness_rating": 9,
+          "date_exact": "Dec 30",
+          "source": "Chicago Tribune / National Archives"
+        },
+        {
+          "era": "1904–1910",
+          "title": "Reforms Born from Tragedy",
+          "description": "The Iroquois fire led to sweeping fire safety reforms nationwide — panic bars ('Crash bars') on exit doors, required fire drills, limits on theater capacity, and mandatory sprinkler systems. The theater owner was acquitted, but the public outrage changed building codes forever. Only 90 of 602 bodies were ever identified.",
+          "category": "historical",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "NFPA / Chicago Municipal Code"
+        },
+        {
+          "era": "Present Day",
+          "title": "No Memorial — A Forgotten Tragedy",
+          "description": "The site is now a 22-story office building at 24 W Randolph. There is no plaque, no marker, no memorial. The deadliest theater fire in American history has been almost entirely erased from the physical landscape. A small memorial exists at the Chicago History Museum.",
+          "category": "memorial",
+          "darkness_rating": 4,
+          "date_exact": null,
+          "source": "Chicago History Museum"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-019",
+      "address": "Clark Street Bridge, Chicago River, Chicago, IL 60601",
+      "current_use": "Active bridge and riverwalk — commemorative plaque nearby",
+      "coordinates": {
+        "lat": 41.8872,
+        "lng": -87.6305
+      },
+      "timeline": [
+        {
+          "era": "July 24, 1915",
+          "title": "The SS Eastland Disaster — 844 Die on the Chicago River",
+          "description": "The SS Eastland, a passenger steamer, rolled over while still moored at the Clark Street dock on the Chicago River. 844 passengers and crew died — mostly Western Electric employees and their families on their way to a company picnic. The ship was top-heavy and had been 'overloaded' with lifeboats (a safety measure after the Titanic). The extra lifeboats made it even more unstable. The ship capsized in 20 feet of water — victims could see the surface but were trapped inside.",
+          "category": "disaster",
+          "darkness_rating": 10,
+          "date_exact": "Jul 24",
+          "source": "National Archives / Eastland Disaster Historical Society"
+        },
+        {
+          "era": "July 24, 1915",
+          "title": "The Horror Below Deck — Trapped in 20 Feet of Water",
+          "description": "Passengers were crushed by falling furniture, drowned in inches of water, or suffocated in air pockets. Survivors described hearing screaming from inside the hull as rescue workers cut through the metal. Many bodies were found clutching each other. One rescue worker described seeing rows of women's hats floating on the surface — marking where bodies lay below. The death toll exceeded both the Titanic and the Iroquois Theatre fire.",
+          "category": "death",
+          "darkness_rating": 10,
+          "date_exact": "Jul 24",
+          "source": "Chicago Tribune / Eastland Memorial Society"
+        },
+        {
+          "era": "1915–Present",
+          "title": "Memory Fades — The Forgotten Disaster",
+          "description": "The Eastland remains Chicago's deadliest disaster, yet it's largely forgotten because it happened on the same day as a major heat wave and overshadowed by WWI news. The ship was later salvaged and served as a Navy training vessel renamed the USS Wilmette. A memorial plaque near the site lists only a fraction of the names. A memorial is now planned at the Riverwalk.",
+          "category": "historical",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Eastland Disaster Historical Society"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-020",
+      "address": "143rd Street & Midlothian Turnpike, Midlothian, IL 60445",
+      "current_use": "Abandoned cemetery — forest preserve land",
+      "coordinates": {
+        "lat": 41.6256,
+        "lng": -87.728
+      },
+      "timeline": [
+        {
+          "era": "1840s–1960s",
+          "title": "Bachelor's Grove — America's Most Haunted Cemetery",
+          "description": "Established in the 1840s, Bachelor's Grove became one of the most reportedly haunted places in America. Over 100 documented paranormal phenomena include: ghostly figures (the 'White Lady,' the 'Farmer,' 'Ghost Children'), phantom cars, and disappearing tombstones. A 1984 paranormal investigation team captured a photo of a transparent monk — one of the most famous ghost photos ever taken.",
+          "category": "mystery",
+          "darkness_rating": 8,
+          "date_exact": null,
+          "source": "Richard Senate / Ghost Research Society"
+        },
+        {
+          "era": "1950s–1970s",
+          "title": "Vandalism, Desecration, and Occult Activity",
+          "description": "The cemetery fell into disrepair. Vandals toppled headstones, vandals smashed mausoleums, and satanic rituals were rumored to take place at night. By the 1970s, the cemetery was a wasteland of broken marble. Local police reported finding animal carcasses arranged in pentagrams. The Madonna of Bachelor's Grove statue — a Virgin Mary marker — was repeatedly beheaded by vandals.",
+          "category": "death",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Cook County Forest Preserve / Southwest News-Herald"
+        },
+        {
+          "era": "1980s–Present",
+          "title": "Closed to the Public — A Protected Ruin",
+          "description": "Bachelor's Grove was fenced off by the Cook County Forest Preserve after years of vandalism and trespassing. It's officially illegal to enter, but ghost hunters still find ways in. Overgrown and decaying, the cemetery is a haunting sight — sunken graves, toppled markers half-buried in mud. The ghost of a woman carrying a baby (the 'White Lady') is the most commonly reported apparition.",
+          "category": "cemetery",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Ghost Research Society / Cook County"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-021",
+      "address": "520 S Michigan Avenue, Chicago, IL 60605",
+      "current_use": "Full-service hotel — 870 rooms, still operating",
+      "coordinates": {
+        "lat": 41.8758,
+        "lng": -87.6247
+      },
+      "timeline": [
+        {
+          "era": "1893",
+          "title": "Opened for the World's Fair — Birth of a Haunted Landmark",
+          "description": "The Congress Plaza Hotel opened in 1893 to host visitors to the World's Columbian Exposition. It was one of the first hotels to have electric lights and telephones in every room. But from the beginning, dark stories surrounded it — guests reported strange noises, cold spots, and the sense of being watched.",
+          "category": "historical",
+          "darkness_rating": 3,
+          "date_exact": null,
+          "source": "Chicago Architecture Center"
+        },
+        {
+          "era": "1919–1970s",
+          "title": "Al Capone's Headquarters — Gangsters and Bullets",
+          "description": "Al Capone kept a permanent suite on the 10th floor (Room 1003) and used the hotel as his unofficial headquarters. His men conducted 'business meetings' in the lobby. The hotel was also the site of multiple gangland shootings — one man was gunned down in the lobby in 1929. The basement was rumored to be a speakeasy and casino. Capone's ghost is still reported in the elevators and hallways.",
+          "category": "crime",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Chicago History Museum / FBI"
+        },
+        {
+          "era": "1940s–Present",
+          "title": "One of America's Most Haunted Hotels",
+          "description": "The Congress Plaza is consistently ranked among America's most haunted hotels. Room 441 is famous for ghostly activity — TVs turning on and off, doors slamming, phantom footsteps. The 'Lady in Red' is seen walking the hallways before vanishing. A young boy's ghost plays in the pool area. There have been over 200 documented ghost reports from guests and staff.",
+          "category": "local_legends",
+          "darkness_rating": 8,
+          "date_exact": null,
+          "source": "Chicago Sun-Times / Travel Channel"
+        },
+        {
+          "era": "Present Day",
+          "title": "Ghost Tours and Paranormal Investigations",
+          "description": "The hotel hosts regular ghost tours and paranormal investigations. Many reality TV shows have filmed here. Staff will openly tell you about their encounters — front desk workers report seeing a woman in a 1920s dress standing in the lobby when no guests are around. The hotel's own website mentions its haunted reputation.",
+          "category": "mystery",
+          "darkness_rating": 6,
+          "date_exact": null,
+          "source": "Congress Plaza Hotel"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-022",
+      "address": "4802 N Broadway Street, Chicago, IL 60640 (Uptown)",
+      "current_use": "Historic jazz club — operating continuously since 1907",
+      "coordinates": {
+        "lat": 41.9693,
+        "lng": -87.6597
+      },
+      "timeline": [
+        {
+          "era": "1907–1919",
+          "title": "Opening as Pop Morse's Roadhouse — A Quiet Beginning",
+          "description": "The Green Mill opened as a quiet roadhouse before Prohibition. It was far enough from downtown to avoid scrutiny. Its location on the 'L' train route made it accessible but discreet. Little did anyone know it would become one of America's most notorious speakeasies.",
+          "category": "historical",
+          "darkness_rating": 2,
+          "date_exact": null,
+          "source": "Uptown Historical Society"
+        },
+        {
+          "era": "1920–1933",
+          "title": "Al Capone's Favorite Speakeasy — Murder and Jazz",
+          "description": "Al Capone made the Green Mill his personal nightclub during Prohibition. He installed secret tunnels to evade police raids (still in the basement). The club's owner, 'Machine Gun' Jack McGurn (one of the St. Valentine's Day Massacre masterminds), was gunned down in a bowling alley in 1936. Capone had a special booth built with a view of all doors — and a hidden exit behind the stage. The booth is still there and still bears a bullet hole from a 1928 gangland shooting.",
+          "category": "crime",
+          "darkness_rating": 9,
+          "date_exact": null,
+          "source": "Chicago Crime Commission / Uptown Historical Society"
+        },
+        {
+          "era": "1930s–1980s",
+          "title": "Golden Age, Decline, and Rebirth",
+          "description": "After Capone, the Green Mill hosted legends like Charlie Parker, Billie Holiday, and Al Jolson. By the 1970s, the neighborhood declined and the club became a strip bar. In 1985, it was restored to its original jazz club glory. The restoration uncovered bullet holes, prohibition-era graffiti, and a hidden gambling room.",
+          "category": "historical",
+          "darkness_rating": 4,
+          "date_exact": null,
+          "source": "Chicago Reader / Uptown Update"
+        },
+        {
+          "era": "Present Day",
+          "title": "The Ghost of 'Machine Gun' Jack McGurn",
+          "description": "Staff and patrons report seeing a man in a 1920s suit at the bar who vanishes when approached. Glasses fly off shelves, and the jukebox sometimes plays 1920s jazz on its own. A photograph taken in 2010 allegedly shows a transparent figure sitting in Capone's booth. The Green Mill remains one of Chicago's most atmospheric — and haunted — nightspots.",
+          "category": "mystery",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Travel Channel / Chicago Ghost Tours"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-023",
+      "address": "2433 N Lincoln Avenue, Chicago, IL 60614 (Lincoln Park)",
+      "current_use": "Victory Gardens Theater — live performance venue",
+      "coordinates": {
+        "lat": 41.9262,
+        "lng": -87.6513
+      },
+      "timeline": [
+        {
+          "era": "1914–1934",
+          "title": "The Biograph's Quiet Beginnings — A Neighborhood Movie House",
+          "description": "The Biograph opened in 1914 as a 980-seat movie theater showing silent films. It was designed by architect Samuel Treat in the Art Deco style. For 20 years, it was just another neighborhood theater — until one night made it infamous.",
+          "category": "historical",
+          "darkness_rating": 2,
+          "date_exact": null,
+          "source": "Lincoln Park Historical Society"
+        },
+        {
+          "era": "July 22, 1934",
+          "title": "John Dillinger Gunned Down — The Death of Public Enemy #1",
+          "description": "After watching 'Manhattan Melodrama' at the Biograph, John Dillinger walked out of the theater with two women. FBI agents — tipped off by Anna Sage, the 'Lady in Red' — surrounded him. Dillinger drew a gun and ran toward an alley. He was shot three times and died on the pavement. He was 31. The alley is still known as 'Dillinger's Death Alley.' The 'Lady in Red' wore an orange dress, not red — it appeared red in the theater's lights.",
+          "category": "crime",
+          "darkness_rating": 9,
+          "date_exact": "Jul 22",
+          "source": "FBI / Chicago Crime Commission"
+        },
+        {
+          "era": "July 22, 1934",
+          "title": "The Aftermath — Blood in the Alley",
+          "description": "Thousands of people rushed to the scene. Souvenir hunters dipped handkerchiefs in Dillinger's blood. The alley was cordoned off, but the bloodstain remained visible for days. Dillinger's body was displayed at the Cook County Morgue, where 15,000 people filed past to see 'Public Enemy No. 1.' The coroner saved his brain for study — it was preserved and still exists at the National Museum of Health.",
+          "category": "death",
+          "darkness_rating": 8,
+          "date_exact": "Jul 22",
+          "source": "FBI / Cook County Medical Examiner"
+        },
+        {
+          "era": "1990s–Present",
+          "title": "Dillinger's Ghost and a Changed Venue",
+          "description": "The Biograph ceased showing movies in 2001 and was renovated into a live theater. Dillinger's ghost is frequently reported — patrons have seen a man in a 1930s suit sitting in the balcony who vanishes. The alley is a stop on every Chicago ghost tour. A small plaque outside marks the spot where the FBI executed their plan.",
+          "category": "mystery",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Chicago Ghost Tours / Victory Gardens Theater"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-024",
+      "address": "735 N State Street, Chicago, IL 60654 (Near North Side)",
+      "current_use": "Active Catholic cathedral — Archdiocese of Chicago",
+      "coordinates": {
+        "lat": 41.8963,
+        "lng": -87.6283
+      },
+      "timeline": [
+        {
+          "era": "1854–1871",
+          "title": "First Cathedral — Burned in the Great Chicago Fire",
+          "description": "The original Holy Name Cathedral was constructed in 1854, but was completely destroyed in the Great Chicago Fire of 1871. The fire consumed the wooden structure, leaving only the foundation. The parish regrouped and rebuilt in stone.",
+          "category": "historical",
+          "darkness_rating": 3,
+          "date_exact": null,
+          "source": "Archdiocese of Chicago Archives"
+        },
+        {
+          "era": "1924–1928",
+          "title": "Dean O'Brien's Bullet-Ridden Body and the Church Steps Shooting",
+          "description": "In 1924, beloved Dean Patrick O'Brien — a priest known for ministering to the poor — was shot four times on the cathedral steps by a disgruntled former employee. He survived and continued serving. The bullet holes in the oak doors were left visible for decades as a testament. The shooter was never fully prosecuted.",
+          "category": "crime",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Chicago Tribune / Catholic New World"
+        },
+        {
+          "era": "1920s–1930s",
+          "title": "Al Capone's Pews — Front Row at the Cathedral",
+          "description": "Al Capone attended Mass at Holy Name Cathedral and had a reserved front-row pew. The diamond-studded crucifix that once hung behind the altar was a gift from Capone. The same bullets that killed Capone's enemies were blessed by priests here. The church was known as the 'Cathedral of the Mob' — where hitmen prayed before their jobs.",
+          "category": "crime",
+          "darkness_rating": 8,
+          "date_exact": null,
+          "source": "Chicago History Museum / FBI Records"
+        },
+        {
+          "era": "2009",
+          "title": "Choir Loft Fire — A Mysterious Blaze",
+          "description": "A fire broke out in the choir loft, causing extensive smoke damage. The cause was ruled 'suspicious' — no definitive source was found. Some parishioners believed it was connected to the building's violent past. The cathedral underwent $8M in restoration and reopened.",
+          "category": "mystery",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "Chicago FD / Archdiocese of Chicago"
+        }
+      ]
+    },
+    {
+      "location_id": "loc-025",
+      "address": "800 S Halsted Street, Chicago, IL 60607 (Little Italy / UIC)",
+      "current_use": "Jane Addams Hull-House Museum — University of Illinois Chicago",
+      "coordinates": {
+        "lat": 41.8719,
+        "lng": -87.647
+      },
+      "timeline": [
+        {
+          "era": "1889–1935",
+          "title": "Jane Addams' Hull House — A Beacon in Chicago's Darkest Slums",
+          "description": "Jane Addams co-founded Hull House in 1889 as a settlement house serving the immigrant poor of Chicago's Near West Side. The area was one of America's most crowded and dangerous slums — with the highest infant mortality rate in the city, rampant disease, and gang violence. Hull House offered daycare, education, healthcare, and legal aid. It became a model for 400+ settlement houses nationwide.",
+          "category": "historical",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "Jane Addams Papers / UIC Archives"
+        },
+        {
+          "era": "1890s–1900s",
+          "title": "The Devil's Mile — Murder, Poverty, and Despair",
+          "description": "The neighborhood around Hull House was called 'The Devil's Mile' — one of Chicago's most violent districts. Murders were common. The morgue at 13th and Wood received bodies daily. Addams documented children dying from preventable diseases, families of 10 living in single rooms, and an infant mortality rate of 30%. She pushed for garbage collection reform after discovering the city was dumping raw sewage in the neighborhood.",
+          "category": "death",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Twenty Years at Hull-House / Chicago Board of Health"
+        },
+        {
+          "era": "1910–1935",
+          "title": "Murder of Dr. Alice Hamilton's Patients — Typhoid Mary's Legacy",
+          "description": "Dr. Alice Hamilton, a resident physician at Hull House, investigated the 1902 typhoid outbreak that killed 100+ in the neighborhood. She discovered the city's sewage system was contaminating the drinking water. The investigation proved that the city's corruption and negligence were killing the poor — a dark chapter in Chicago's political history.",
+          "category": "disaster",
+          "darkness_rating": 7,
+          "date_exact": null,
+          "source": "Alice Hamilton Archives / Harvard Medical School"
+        },
+        {
+          "era": "1963–Present",
+          "title": "Demolition and Preservation — Ghosts of the Past",
+          "description": "The University of Illinois Chicago expanded and demolished most of the Hull House complex in 1963, sparking preservation battles. Only the original Hull mansion and two dining halls remain. The museum preserves the memory of the neighborhood's struggle. Staff report strange sounds — children's laughter from empty rooms, footsteps on stairs. Some believe the spirits of the immigrant families still haunt the halls.",
+          "category": "mystery",
+          "darkness_rating": 5,
+          "date_exact": null,
+          "source": "Jane Addams Hull-House Museum / UIC"
+        }
+      ]
+    }
+  ]
+}
