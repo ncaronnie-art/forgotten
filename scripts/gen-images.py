@@ -18,7 +18,7 @@ events = data["events"]
 needs_image = []
 for e in events:
     url = e.get("imageUrl") or ""
-    if not url or url.endswith(".bmp") or "_ph" in url:
+    if not url or url.endswith(".webp") or "_ph" in url:
         needs_image.append(e)
 
 print(f"Total: {len(events)} | Need images: {len(needs_image)} | Have: {len(events) - len(needs_image)}")

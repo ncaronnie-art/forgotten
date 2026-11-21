@@ -1,16 +1,13 @@
 /**
  * Fast local placeholder image generator for Past Shadows events.
- * Creates dark-themed gradient JPGs using pure Node.js (no deps).
+ * Creates dark-themed gradient WebP images via sharp.
  * Used as fallback when Pollinations.ai is unavailable or rate-limited.
  *
  * Usage: bun run scripts/generate-placeholders.ts
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { createCanvas } from "@napi-rs/canvas";
-
-// We'll use a pure Node approach since we can't install packages
-// Instead, generate minimal valid JPEGs using raw bytes
+import sharp from "sharp";
 
 const EVENTS_PATH = join(import.meta.dir, "..", "src", "data", "curated_events.json");
 const IMAGES_DIR = join(import.meta.dir, "..", "public", "images", "events");
@@ -40,21 +37,17 @@ function slugify(title: string): string {
     .slice(0, 80);
 }
 
-// Generate a minimal valid JPEG programmatically
-// We create a simple dark gradient using raw pixel data + JPEG encoding
-function generateDarkJPEG(width: number, height: number, r: number, g: number, b: number): Uint8Array {
-  // Create a simple PPM P6 (binary) then convert mental model
-  // Actually, let's generate a proper minimal JPEG using well-known quantization tables
-  
-  const pixels = new Uint8Array(width * height * 3);
-  
+// Generate a dark gradient placeholder and encode it as WebP (quality 82)
+function buildGradientPixels(width: number, height: number, r: number, g: number, b: number): Buffer {
+  const pixels = Buffer.alloc(width * height * 3);
+
   // Create a gradient from dark to slightly lighter
   for (let y = 0; y < height; y++) {
     const brightness = 0.4 + (y / height) * 0.3; // 0.4 to 0.7
     const pr = Math.min(255, Math.floor(r * brightness));
     const pg = Math.min(255, Math.floor(g * brightness));
     const pb = Math.min(255, Math.floor(b * brightness));
-    
+
     // Add subtle noise
     for (let x = 0; x < width; x++) {
       const idx = (y * width + x) * 3;
@@ -64,54 +57,22 @@ function generateDarkJPEG(width: number, height: number, r: number, g: number, b
       pixels[idx + 2] = Math.max(0, Math.min(255, pb + noise));
     }
   }
-  
-  // Encode as BMP (simpler than JPEG to generate programmatically)
-  // BMP header + DIB header + pixel data
-  const rowSize = Math.floor((width * 3 + 3) / 4) * 4;
-  const pixelDataSize = rowSize * height;
-  const fileSize = 54 + pixelDataSize;
-  
-  const buffer = Buffer.alloc(fileSize);
-  let offset = 0;
-  
-  // BMP file header (14 bytes)
-  buffer.write("BM", 0);                    // signature
-  buffer.writeUInt32LE(fileSize, 2);        // file size
-  buffer.writeUInt32LE(0, 6);              // reserved
-  buffer.writeUInt32LE(54, 10);             // pixel data offset
-  
-  // DIB header (40 bytes)
-  buffer.writeUInt32LE(40, 14);            // header size
-  buffer.writeInt32LE(width, 18);           // width
-  buffer.writeInt32LE(height, 22);          // height
-  buffer.writeUInt16LE(1, 26);             // planes
-  buffer.writeUInt16LE(24, 28);            // bits per pixel
-  buffer.writeUInt32LE(0, 30);             // compression
-  buffer.writeUInt32LE(pixelDataSize, 34); // image size
-  buffer.writeInt32LE(2835, 38);           // x pixels per meter (72 DPI)
-  buffer.writeInt32LE(2835, 42);           // y pixels per meter
-  buffer.writeUInt32LE(0, 46);             // colors used
-  buffer.writeUInt32LE(0, 50);             // important colors
-  
-  // Pixel data (BMP: BGR, bottom-to-top, padded rows)
-  offset = 54;
-  for (let y = height - 1; y >= 0; y--) {
-    let rowOffset = offset;
-    for (let x = 0; x < width; x++) {
-      const idx = (y * width + x) * 3;
-      buffer[rowOffset] = pixels[idx + 2];     // B
-      buffer[rowOffset + 1] = pixels[idx + 1]; // G
-      buffer[rowOffset + 2] = pixels[idx];     // R
-      rowOffset += 3;
-    }
-    // Padding
-    for (let p = width * 3; p < rowSize; p++) {
-      buffer[offset + p] = 0;
-    }
-    offset += rowSize;
-  }
-  
-  return new Uint8Array(buffer);
+
+  return pixels;
+}
+
+async function writePlaceholderWebP(
+  filepath: string,
+  width: number,
+  height: number,
+  r: number,
+  g: number,
+  b: number,
+): Promise<void> {
+  const pixels = buildGradientPixels(width, height, r, g, b);
+  await sharp(pixels, { raw: { width, height, channels: 3 } })
+    .webp({ quality: 82 })
+    .toFile(filepath);
 }
 
 async function main() {
@@ -142,17 +103,16 @@ async function main() {
     const [r, g, b] = CATEGORY_COLORS[category] || [50, 50, 55];
     
     const slug = slugify(event.title);
-    let filename = `${slug}_ph.bmp`; // _ph suffix = placeholder, can be replaced by AI later
+    let filename = `${slug}_ph.webp`; // _ph suffix = placeholder, can be replaced by AI later
     let filepath = join(IMAGES_DIR, filename);
     
     // Handle duplicates
     if (existsSync(filepath)) {
-      filename = `${slug}-${event.id.slice(0, 8)}_ph.bmp`;
+      filename = `${slug}-${event.id.slice(0, 8)}_ph.webp`;
       filepath = join(IMAGES_DIR, filename);
     }
     
-    const jpeg = generateDarkJPEG(400, 300, r, g, b);
-    writeFileSync(filepath, jpeg);
+    await writePlaceholderWebP(filepath, 400, 300, r, g, b);
     
     event.imageUrl = `/images/events/${filename}`;
     generated++;
