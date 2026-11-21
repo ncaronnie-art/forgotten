@@ -1,5 +1,5 @@
 #!/bin/bash
-# Auto-upgrade: replaces BMP placeholders with real AI images
+# Auto-upgrade: replaces WebP placeholders with real AI images
 # Exits when all events have JPEGs or after 48 hours
 set -e
 
@@ -8,20 +8,20 @@ DEADLINE=$(($(date +%s) + 172800))  # 48 hours
 WAIT=900  # 15 min between attempts (scales up)
 
 while [ $(date +%s) -lt $DEADLINE ]; do
-  # Count BMP-linked events
-  BMP_COUNT=$(python3 -c "
+  # Count placeholder-linked events
+  PH_COUNT=$(python3 -c "
 import json
 with open('src/data/curated_events.json') as f:
     events = json.load(f)['events']
-print(sum(1 for e in events if (e.get('imageUrl') or '').endswith('.bmp')))
+print(sum(1 for e in events if (e.get('imageUrl') or '').endswith('_ph.webp')))
 ")
   
-  if [ "$BMP_COUNT" -eq 0 ]; then
+  if [ "$PH_COUNT" -eq 0 ]; then
     echo "[$(date)] ✅ All images upgraded! Exiting."
     exit 0
   fi
 
-  echo "[$(date)] 🎯 $BMP_COUNT BMPs remain — running upgrade..."
+  echo "[$(date)] 🎯 $PH_COUNT WebP placeholders remain — running upgrade..."
   bun run scripts/batch-generate-images.ts 2>&1 | tail -5
   
   # Check if progress was made
@@ -29,11 +29,11 @@ print(sum(1 for e in events if (e.get('imageUrl') or '').endswith('.bmp')))
 import json
 with open('src/data/curated_events.json') as f:
     events = json.load(f)['events']
-print(sum(1 for e in events if (e.get('imageUrl') or '').endswith('.bmp')))
+print(sum(1 for e in events if (e.get('imageUrl') or '').endswith('_ph.webp')))
 ")
   
-  if [ "$NEW_COUNT" -lt "$BMP_COUNT" ]; then
-    echo "[$(date)] 📈 Progress: $BMP_COUNT → $NEW_COUNT ($((BMP_COUNT - NEW_COUNT)) upgraded)"
+  if [ "$NEW_COUNT" -lt "$PH_COUNT" ]; then
+    echo "[$(date)] 📈 Progress: $PH_COUNT → $NEW_COUNT ($((PH_COUNT - NEW_COUNT)) upgraded)"
     WAIT=900  # reset wait on progress
   else
     echo "[$(date)] ⚠️ No progress — backing off ${WAIT}s"
@@ -44,4 +44,4 @@ print(sum(1 for e in events if (e.get('imageUrl') or '').endswith('.bmp')))
   sleep $WAIT
 done
 
-echo "[$(date)] ⏰ 48-hour deadline reached. $BMP_COUNT BMPs remain."
+echo "[$(date)] ⏰ 48-hour deadline reached. $PH_COUNT WebP placeholders remain."

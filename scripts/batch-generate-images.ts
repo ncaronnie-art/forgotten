@@ -44,7 +44,7 @@ async function main() {
   mkdirSync(IMAGES_DIR, { recursive: true });
   const data = JSON.parse(readFileSync(EVENTS_PATH, "utf-8"));
   const events: Event[] = data.events || [];
-  const todo = events.filter(function(e) { return !e.imageUrl || (e.imageUrl && e.imageUrl.endsWith("_ph.bmp")); });
+  const todo = events.filter(function(e) { return !e.imageUrl || (e.imageUrl && e.imageUrl.endsWith("_ph.webp")); });
   const done = events.length - todo.length;
   console.log("Total: " + events.length + " | AI: " + done + " | Need: " + todo.length);
   console.log("Sequential | " + (TIMEOUT_MS/1000) + "s timeout | save every " + BATCH_SIZE);
